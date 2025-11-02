@@ -51,7 +51,7 @@ class CustomDataset(Dataset):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="python generate_distance_feature.py -inp rdock_allresult_all.csv -cutoff 10 -output_folder 3_distance_rdock_docking -ncpus 8")
     parser.add_argument("-graph", type=str, help = "input folder containing .graph files", default="graph_egnn")
-    parser.add_argument("-model", type=str, help = "saved model path", default = "model_full_model_epoch300.pth")
+    parser.add_argument("-model", type=str, help = "saved model path", default = "model_SIGNALD.pth")
     parser.add_argument("-output", type=str, help = "output score filename", default = "SIGNALD_pred.csv")
     parser.add_argument("-ncpus", type=int, help = "no. of processors", default=8)
     
