@@ -3,8 +3,8 @@
 > **SIGNALD** is a generalizable scoring function for pose identification and evaluation across RNA and DNA (including modified Nucleic-Acid residues) complexes.
 
 ---
-> [!Note]
-> The trained model can be obtained upon request
+<!-- > [!Note]
+> The trained model can be obtained upon request -->
 
 ## 🧩 Installation
 
